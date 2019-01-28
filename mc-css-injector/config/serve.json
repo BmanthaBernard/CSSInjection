@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://mantha.sharepoint.com/sites/Hub/SitePages/Home.aspx",
+      "customActions": {
+        "20c87fc0-bd25-4da8-b2c1-6d08b6113a97": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message",
+            "cssurl": "/Style%20Library/customclient.css"
+          }
+        }
+      }
+    },
+    "mccssInjector": {
+      "pageUrl": "https://mantha.sharepoint.com/sites/Hub/SitePages/Home.aspx",
+      "customActions": {
+        "20c87fc0-bd25-4da8-b2c1-6d08b6113a97": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message",
+            "cssurl": "/Style%20Library/customclient.css"
+          }
+        }
+      }
+    }
+  }
+}
